@@ -11,4 +11,4 @@ MAINTAINER Konstantinos Christofilos <kostas.christofilos@rocketgraph.com>
 RUN \
   apt-get update && \
   apt-get -y upgrade && \
-  apt-get install -y curl vim wget
+  apt-get install -y software-properties-common curl vim wget
